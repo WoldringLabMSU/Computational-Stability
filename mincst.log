@@ -1,0 +1,336 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: rosetta.binary.linux.release-247 r247 2020.08+release.cb1caba cb1cabafd7463ab703f6abf5efa33d2707b85924 https://www.rosettacommons.org 2020-02-21T14:46:08.581859
+core.init: command: /mnt/home/dolgikhb/Rosetta/rosetta_bin_linux_2020.08.61146_bundle/main/source/bin/minimize_with_cst.static.linuxgccrelease -in:file:l lst -in:file:fullatom -ignore_unrecognized_res -fa_max_dis 9.0 -database /mnt/home/dolgikhb/Rosetta/rosetta_bin_linux_2020.08.61146_bundle/main/database/ -ddg::harmonic_ca_tether 0.5 -score:weights pre_talaris_2013_standard -restore_pre_talaris_2013_behavior -ddg::constraint_weight 1.0 -ddg::out_pdb_prefix min_cst_0.5 -ddg::sc_min_only false -score:patch /mnt/home/dolgikhb/Rosetta/rosetta_bin_linux_2020.08.61146_bundle/main/database/scoring/weights/score12.wts_patch
+basic.random.init_random_generator: 'RNG device' seed mode, using '/dev/urandom', seed=-2005832910 seed_offset=0 real_seed=-2005832910
+basic.random.init_random_generator: RandomGenerator:init: Normal mode, seed=-2005832910 RG_type=mt19937
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 74 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 0.1 seconds.
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: pre_talaris_2013_standard
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION PATCH: /mnt/home/dolgikhb/Rosetta/rosetta_bin_linux_2020.08.61146_bundle/main/database/scoring/weights/score12.wts_patch
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 9)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 9)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/PairEPotential/pdb_pair_stats_fine
+basic.io.database: Database file opened: scoring/score_functions/hbonds/score12_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/score12_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/score12_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+apps.public.ddg.minimize_with_cst: using -l option 
+apps.public.ddg.minimize_with_cst: examining file: ./1H0T_WT_Renum.pdb
+core.import_pose.import_pose: File './1H0T_WT_Renum.pdb' automatically determined to be of type PDB
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 2 and 1 dist 3.87013 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 3 and 1 dist 5.61339 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 3 and 2 dist 3.86484 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 4 and 1 dist 6.11776 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 4 and 2 dist 6.42235 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 4 and 3 dist 3.86104 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 5 and 3 dist 5.60249 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 5 and 4 dist 3.87841 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 6 and 1 dist 8.32009 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 6 and 2 dist 8.90874 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 6 and 3 dist 5.86148 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 6 and 4 dist 5.38618 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 6 and 5 dist 3.88273 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 7 and 1 dist 8.65486 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 7 and 3 dist 8.28603 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 7 and 4 dist 6.1332 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 7 and 5 dist 5.64472 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 7 and 6 dist 3.86464 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 8 and 4 dist 5.88373 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 8 and 5 dist 4.59279 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 8 and 6 dist 5.73107 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 8 and 7 dist 3.88901 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 9 and 4 dist 8.40864 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 9 and 5 dist 5.36594 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 9 and 6 dist 5.90476 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 9 and 7 dist 5.43686 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 9 and 8 dist 3.82157 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 10 and 5 dist 7.9062 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 10 and 6 dist 6.57498 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 10 and 7 dist 4.50338 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 10 and 8 dist 5.20599 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 10 and 9 dist 3.87406 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 11 and 7 dist 6.02478 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 11 and 8 dist 5.12527 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 11 and 9 dist 5.60342 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 11 and 10 dist 3.8593 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 12 and 7 dist 8.49354 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 12 and 8 dist 6.16923 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 12 and 9 dist 5.10968 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 12 and 10 dist 5.56197 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 12 and 11 dist 3.85362 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 13 and 8 dist 8.44955 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 13 and 9 dist 5.97393 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 13 and 10 dist 5.13529 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 13 and 11 dist 5.44614 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 13 and 12 dist 3.84597 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 14 and 9 dist 8.51857 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 14 and 10 dist 6.20793 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 14 and 11 dist 4.97417 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 14 and 12 dist 5.33695 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 14 and 13 dist 3.81804 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 15 and 10 dist 8.81816 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 15 and 11 dist 6.25521 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 15 and 12 dist 5.12139 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 15 and 13 dist 5.59964 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 15 and 14 dist 3.84739 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 16 and 11 dist 8.67969 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 16 and 12 dist 6.07618 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 16 and 13 dist 5.23138 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 16 and 14 dist 5.63656 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 16 and 15 dist 3.89682 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 17 and 12 dist 8.56165 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 17 and 13 dist 6.32349 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 17 and 14 dist 5.26241 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 17 and 15 dist 5.28583 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 17 and 16 dist 3.8614 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 18 and 13 dist 8.68854 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 18 and 14 dist 6.11473 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 18 and 15 dist 4.8263 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 18 and 16 dist 5.73083 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 18 and 17 dist 3.88419 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 19 and 14 dist 8.78552 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 19 and 15 dist 5.99524 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 19 and 16 dist 5.59227 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 19 and 17 dist 5.68454 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 19 and 18 dist 3.9074 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 20 and 17 dist 8.28497 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 20 and 18 dist 6.11713 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 20 and 19 dist 3.8592 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 21 and 18 dist 8.9999 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 21 and 19 dist 5.69185 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 21 and 20 dist 3.8798 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 22 and 16 dist 7.91769 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 22 and 17 dist 7.9133 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 22 and 18 dist 8.57122 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 22 and 19 dist 5.87398 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 22 and 20 dist 5.94686 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 22 and 21 dist 3.86874 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 23 and 20 dist 8.48132 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 23 and 21 dist 6.50926 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 23 and 22 dist 3.82739 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 24 and 22 dist 7.07191 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 24 and 23 dist 3.83454 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 25 and 22 dist 8.12922 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 25 and 23 dist 5.55163 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 25 and 24 dist 3.8532 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 26 and 22 dist 6.05515 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 26 and 23 dist 5.5242 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 26 and 24 dist 5.6122 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 26 and 25 dist 3.86389 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 16 dist 7.7943 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 17 dist 8.09405 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 22 dist 6.09816 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 23 dist 5.92844 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 24 dist 5.29156 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 25 dist 5.95554 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 27 and 26 dist 3.86678 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 28 and 23 dist 8.19186 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 28 and 24 dist 5.53651 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 28 and 25 dist 5.79347 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 28 and 26 dist 5.76567 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 28 and 27 dist 3.88687 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 29 and 24 dist 7.92877 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 29 and 25 dist 6.05857 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 29 and 26 dist 5.37964 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 29 and 27 dist 5.64795 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 29 and 28 dist 3.85413 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 30 and 25 dist 8.55532 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 30 and 26 dist 6.10482 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 30 and 27 dist 5.13254 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 30 and 28 dist 5.31247 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 30 and 29 dist 3.83311 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 31 and 26 dist 8.71413 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 31 and 27 dist 6.24582 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 31 and 28 dist 5.01037 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 31 and 29 dist 5.5117 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 31 and 30 dist 3.78452 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 32 and 27 dist 8.699 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 32 and 28 dist 6.09184 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 32 and 29 dist 4.96513 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 32 and 30 dist 5.3453 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 32 and 31 dist 3.87804 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 33 and 28 dist 8.6739 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 33 and 29 dist 6.20191 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 33 and 30 dist 5.15356 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 33 and 31 dist 5.61107 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 33 and 32 dist 3.89408 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 34 and 29 dist 8.47586 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 34 and 30 dist 5.95383 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 34 and 31 dist 4.9117 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 34 and 32 dist 5.42692 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 34 and 33 dist 3.87014 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 35 and 30 dist 8.48272 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 35 and 31 dist 5.8395 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 35 and 32 dist 5.30126 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 35 and 33 dist 5.86707 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 35 and 34 dist 3.89121 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 36 and 31 dist 8.24409 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 36 and 32 dist 5.84713 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 36 and 33 dist 5.30991 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 36 and 34 dist 5.56282 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 36 and 35 dist 3.87699 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 37 and 32 dist 8.28328 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 37 and 33 dist 5.80358 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 37 and 34 dist 5.36948 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 37 and 35 dist 5.83724 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 37 and 36 dist 3.88918 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 38 and 33 dist 8.46228 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 38 and 34 dist 6.11703 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 38 and 35 dist 6.49943 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 38 and 36 dist 6.53817 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 38 and 37 dist 3.85651 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 39 and 34 dist 8.75574 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 39 and 37 dist 5.7561 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 39 and 38 dist 3.8843 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 40 and 33 dist 8.52347 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 40 and 34 dist 7.37296 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 40 and 37 dist 6.06769 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 40 and 38 dist 5.64343 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 40 and 39 dist 3.86531 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 41 and 33 dist 8.89592 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 41 and 34 dist 6.21407 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 41 and 37 dist 7.35823 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 41 and 38 dist 5.50314 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 41 and 39 dist 5.57027 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 41 and 40 dist 3.89595 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 42 and 38 dist 8.66578 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 42 and 39 dist 7.31656 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 42 and 40 dist 5.79771 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 42 and 41 dist 3.87634 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 43 and 39 dist 8.21226 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 43 and 40 dist 5.20521 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 43 and 41 dist 5.44523 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 43 and 42 dist 3.84692 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 44 and 34 dist 8.06886 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 44 and 40 dist 6.05493 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 44 and 41 dist 4.92252 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 44 and 42 dist 5.31332 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 44 and 43 dist 3.83362 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 45 and 12 dist 8.07433 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 45 and 40 dist 8.82102 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 45 and 41 dist 6.39336 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 45 and 42 dist 5.13056 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 45 and 43 dist 5.42505 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 45 and 44 dist 3.7572 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 46 and 41 dist 8.69812 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 46 and 42 dist 6.23792 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 46 and 43 dist 4.86174 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 46 and 44 dist 5.35585 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 46 and 45 dist 3.85675 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 47 and 42 dist 8.75658 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 47 and 43 dist 6.18313 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 47 and 44 dist 5.16455 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 47 and 45 dist 5.48877 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 47 and 46 dist 3.84838 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 48 and 43 dist 8.51261 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 48 and 44 dist 6.09406 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 48 and 45 dist 4.90847 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 48 and 46 dist 5.44195 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 48 and 47 dist 3.8439 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 49 and 44 dist 8.58343 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 49 and 45 dist 6.1602 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 49 and 46 dist 5.08658 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 49 and 47 dist 5.33474 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 49 and 48 dist 3.85013 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 50 and 45 dist 8.5063 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 50 and 46 dist 6.13389 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 50 and 47 dist 4.70033 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 50 and 48 dist 5.36283 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 50 and 49 dist 3.83211 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 51 and 46 dist 8.68588 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 51 and 47 dist 6.21508 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 51 and 48 dist 4.99463 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 51 and 49 dist 5.21329 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 51 and 50 dist 3.85663 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 52 and 47 dist 8.51947 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 52 and 48 dist 6.16204 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 52 and 49 dist 4.64857 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 52 and 50 dist 5.48144 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 52 and 51 dist 3.8347 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 53 and 48 dist 8.86239 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 53 and 49 dist 6.311 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 53 and 50 dist 5.41967 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 53 and 51 dist 5.44063 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 53 and 52 dist 3.86322 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 54 and 49 dist 8.49362 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 54 and 50 dist 6.08438 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 54 and 51 dist 4.98298 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 54 and 52 dist 5.82647 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 54 and 53 dist 3.87427 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 55 and 50 dist 8.50013 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 55 and 51 dist 5.67694 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 55 and 52 dist 5.63457 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 55 and 53 dist 5.64321 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 55 and 54 dist 3.86308 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 56 and 51 dist 8.01778 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 56 and 52 dist 6.034 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 56 and 53 dist 4.98155 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 56 and 54 dist 5.46677 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 56 and 55 dist 3.89298 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 57 and 53 dist 8.33643 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 57 and 54 dist 8.23666 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 57 and 55 dist 6.62788 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 57 and 56 dist 3.81286 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 58 and 56 dist 6.59819 and tol 0.5
+apps.public.ddg.minimize_with_cst: c-alpha constraints added to residues 58 and 57 dist 3.86204 and tol 0.5
+core.pack.dunbrack.RotamerLibrary: Using Dunbrack library binary file '/mnt/home/dolgikhb/Rosetta/rosetta_bin_linux_2020.08.61146_bundle/main/database/rotamer/bbdep02.May.sortlib.Dunbrack02.lib.bin'.
+core.pack.dunbrack.RotamerLibrary: Dunbrack library took 0.08 seconds to load from binary
+apps.public.ddg.minimize_with_cst: 
+------------------------------------------------------------
+ Scores                       Weight   Raw Score Wghtd.Score
+------------------------------------------------------------
+ fa_atr                       0.800    -298.094    -238.476
+ fa_rep                       0.440      42.154      18.548
+ fa_sol                       0.650     198.448     128.991
+ fa_intra_rep                 0.004     111.342       0.445
+ pro_close                    1.000       0.498       0.498
+ fa_pair                      0.490      -5.475      -2.683
+ hbond_sr_bb                  0.585     -45.097     -26.382
+ hbond_lr_bb                  1.170       0.000       0.000
+ hbond_bb_sc                  1.170      -1.001      -1.171
+ hbond_sc                     1.100      -0.321      -0.354
+ dslf_ss_dst                  0.500       0.000       0.000
+ dslf_cs_ang                  2.000       0.000       0.000
+ dslf_ss_dih                  5.000       0.000       0.000
+ dslf_ca_dih                  5.000       0.000       0.000
+ atom_pair_constraint         1.000       0.000       0.000
+ rama                         0.200     -22.698      -4.540
+ omega                        0.500       2.110       1.055
+ fa_dun                       0.560      68.554      38.390
+ p_aa_pp                      0.320      -8.961      -2.867
+ ref                          1.000     -21.450     -21.450
+---------------------------------------------------
+ Total weighted score:                     -109.994
+apps.public.ddg.minimize_with_cst: 
+------------------------------------------------------------
+ Scores                       Weight   Raw Score Wghtd.Score
+------------------------------------------------------------
+ fa_atr                       0.800    -307.189    -245.751
+ fa_rep                       0.440      34.204      15.050
+ fa_sol                       0.650     197.722     128.520
+ fa_intra_rep                 0.004     104.442       0.418
+ pro_close                    1.000       0.341       0.341
+ fa_pair                      0.490      -6.337      -3.105
+ hbond_sr_bb                  0.585     -46.392     -27.139
+ hbond_lr_bb                  1.170       0.000       0.000
+ hbond_bb_sc                  1.170      -0.624      -0.730
+ hbond_sc                     1.100      -0.540      -0.594
+ dslf_ss_dst                  0.500       0.000       0.000
+ dslf_cs_ang                  2.000       0.000       0.000
+ dslf_ss_dih                  5.000       0.000       0.000
+ dslf_ca_dih                  5.000       0.000       0.000
+ atom_pair_constraint         1.000       5.275       5.275
+ rama                         0.200     -32.288      -6.458
+ omega                        0.500       3.279       1.640
+ fa_dun                       0.560      55.754      31.222
+ p_aa_pp                      0.320     -12.553      -4.017
+ ref                          1.000     -21.450     -21.450
+---------------------------------------------------
+ Total weighted score:                     -126.779
+apps.public.ddg.minimize_with_cst: running another iteration of minimization. difference is: -16.785
