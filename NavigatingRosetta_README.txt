@@ -69,7 +69,7 @@ contain these files:
 	(minimize_with_cst) took ~25 seconds
         * - This is not a recommendation when performing minimize_with_cst and was only used for convenience
 
-	(ddg_monomer) took 
+	(ddg_monomer) took ~24 hours
 	* - This is not a recommendation when performing ddg_monomer and was only used for convenience
 
 
