@@ -12,3 +12,11 @@
 # ./convert_to_cst_file.sh cstmin.log > ca_dist_restraints.cst
 
 grep ^apps.public.ddg.minimize_with_cst: $1 | awk '{print "AtomPair CA "$7" CA "$9" HARMONIC "$11" "$14}'
+
+# Edits Description by Benedikt Dolgikh
+## The original command was as so:
+### grep ^c-alpha $1 | awk '{print "AtomPair CA "$6" CA "$8" HARMONIC "$10" "$13"}'
+## This did not produce a .cst file based on how the command indicated the mincst.log file should be read
+## As a result, instead of "c-alpha" showing the start of the line, it was replaced with "apps.public.ddg.minimize_with_cst:"
+## Some minor adjustments moved the necessary information one over, thus a "$7" instead of "$6" for the c-alpha of the first position, and so on
+### Keep in mind that this may vary for you as well, and can easily be changed based on the description above
