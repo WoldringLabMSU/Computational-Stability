@@ -1,3 +1,6 @@
+# You will use this file for performing minimize_with_cst.linuxgccrelease, but first make sure that you positions of interest numbering has not changed
+# If the numbering of your positions of interest have changed, make note of these as it will be necessary to include those numbers when crafting the .resfile
+
 ATOM      1  N   VAL A   1      -0.681 -16.086  13.997  1.00  0.00           N  
 ATOM      2  CA  VAL A   1      -0.859 -16.504  12.564  1.00  0.00           C  
 ATOM      3  C   VAL A   1       0.240 -17.510  12.171  1.00  0.00           C  
