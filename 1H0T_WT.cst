@@ -1,3 +1,7 @@
+# This file contains the Harmonic calpha-calpha restraints and standard deviation that is generated from the mincst.log file using convert_to_cst_file.sh
+# Some lines were removed due to how the convert_to_cst_file.sh is setup to read the mincst.log file
+# depending on how your mincst.log file is setup, you may need to change small details about the convert_to_cst_file.sh command (refer to convert_to_cst_file.sh and mincst.log)
+
 AtomPair CA 2 CA 1 HARMONIC 3.87013 0.5
 AtomPair CA 3 CA 1 HARMONIC 5.61339 0.5
 AtomPair CA 3 CA 2 HARMONIC 3.86484 0.5
