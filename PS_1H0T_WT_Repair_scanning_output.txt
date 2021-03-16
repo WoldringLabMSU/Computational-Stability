@@ -1,3 +1,5 @@
+# Notice how the last variant for each position of interest is a lowercase "e" or "o", this indicates the protonated or deprotonated isoforms of Histidine
+
 GLNA9Q	0
 GLNA9G	0.857631
 GLNA9A	0.345953
