@@ -1,3 +1,12 @@
+# This is the resfile that indicates which position of interest, location of position by protein chain, and specification method 
+## (e.g. ALLAA = allow all amino acids including cysteine)
+# is used during stability prediction in the High Resolution ddg_monomer protocol
+# Notice, for the proper reading of this file by Rosetta you must first disallow any changes to residues containing any of the 20 amino acids
+## (e.g. NOTAA ARNDCQEGHILKMFPSTWYV)
+# Then, you must indicate (start) to Rosetta
+# Finally, you will allow Rosetta to optimize the residue on a chain to your specification
+## (e.g. 9 A ALLAA)
+
 NOTAA ARNDCQEGHILKMFPSTWYV
 
 start
