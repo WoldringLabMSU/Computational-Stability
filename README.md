@@ -12,5 +12,5 @@
   # 6) .resfile templates
   # 7) Explaning edits to the convert_to_cst_file.sh
   # 8) Finding Rosetta executables
-  # 9) Explaining arguments (-arg::####) for ddg_monomer executables
+  # 9) Input options (-arg:####) for ddg_monomer executables
   # 10) Example - Degenerate codon design strategy
