@@ -39,6 +39,7 @@ contain these files:
  - <resfilename>.resfile
 
 (minimize_with_cst.linuxgccrelease - For High Resolution ddG_monomer)
+ - <renumberedpdbname>.pdb
  - <listname>
 
 (convert_to_cst_file.sh - For High Resolution ddG_monomer)
@@ -63,14 +64,14 @@ contain these files:
 	(Local Desktop -> Server Cluster)
 	scp -r /PATH/TO/FILE/OR/FOLDER/ <username>@<something>.<something>:/PATH/IN/SERVER/CLUSTER/
 
- - For a 58 Residue protein (1H0T_WT.pdb) on a computing cluster requesting 2000Gb*
+ - For a 58 Residue protein (1H0T_WT.pdb) on a computing cluster MaxRSS of 5 Gb*
  for one Node, one task per node,and one CPU per task:
         
 	(minimize_with_cst) took ~25 seconds
-        * - This is not a recommendation when performing minimize_with_cst and was only used for convenience
+        * - This is not a recommendation when performing minimize_with_cst
 
 	(ddg_monomer) took ~24 hours
-	* - This is not a recommendation when performing ddg_monomer and was only used for convenience
+	* - This is not a recommendation when performing ddg_monomer
 
 
 	
