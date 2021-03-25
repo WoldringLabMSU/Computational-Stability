@@ -64,7 +64,7 @@ contain these files:
 	(Local Desktop -> Server Cluster)
 	scp -r /PATH/TO/FILE/OR/FOLDER/ <username>@<something>.<something>:/PATH/IN/SERVER/CLUSTER/
 
- - For a 58 Residue protein (1H0T_WT.pdb) on a computing cluster MaxRSS of 5 Gb*
+ - For a 58 Residue protein (1H0T_WT.pdb) on a computing cluster MaxRSS below/of 5 Gb*
  for one Node, one task per node,and one CPU per task:
         
 	(minimize_with_cst) took ~25 seconds
