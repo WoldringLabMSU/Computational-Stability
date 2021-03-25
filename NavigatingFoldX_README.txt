@@ -48,10 +48,10 @@ for you foldx executable and simplifying the command line itself.
  1600 MHz DDR3 Mid 2012 MacBook Pro:
  	(RepairPDB) took ~1.5 minutes
 	
- - For a 58 Residue protein (1H0T_WT.pdb) on a computing cluster requesting 2000Gb*
+ - For a 58 Residue protein (1H0T_WT.pdb) on a computing cluster using MaxRSS below 5 Gb*
  for one Node, one task per node, and one CPU per task:
 	(PositionScan; 13 positions each mutated to all 20 amino acids) took ~13.5 minutes
-	* - This is not a recommendation when performing PositionScan and was only used for convenience
+	* - This is not a recommendation when performing PositionScan
 
 
 
